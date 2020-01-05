@@ -1,5 +1,70 @@
 * {
-    font-family: "Khula";
     color: white;
-    background-color: #1a1a1a;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
+
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 75px;
+}
+
+h2 {
+    font-family: "Khula";
+    font-size: 25px;
+}
+
+#menu {
+    position: fixed;
+    background-color: rgba(17, 17, 17, .75);
+    width: 100%;
+    font-family: "Montserrat";
+    font-size: 17px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    z-index: 2;
+    border-bottom: solid 1px #FF6464;
+    transition: .5s all;
+}
+
+#menu:hover {
+    padding-bottom: 30px;
+    transition: .5s all;
+}
+
+#menu a {
+    border-bottom: solid 2px rgba(255,100,100,0);
+    transition: .5s all;
+}
+
+#menu a:hover {
+    border-bottom: solid 2px rgba(255,100,100,1);
+    transition: .5s all;
+}
+
+
+
+#banner img {
+    position: fixed;
+    width: 100%;
+    top: -150px;
+    z-index: -2;
+}
+
+#bannercontent {
+    padding: 200px;
+}
+
+#main {
+    border-top: solid 1px #FF6464;
+    border-bottom: solid 1px #FF6464;
+}
+
+#background {
+    width: 100%;
+}
+
+
