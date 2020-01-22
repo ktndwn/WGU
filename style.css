@@ -35,18 +35,25 @@ h4 {
 }
 
 .underline {
-    text-decoration: underline;
-    
+    text-decoration: underline;    
 }
 
 .bold {
-    font-weight: 700;
-    
+    font-weight: 700;  
 }
 
 .italic {
-    font-style: italic;
-    
+    font-style: italic; 
+}
+
+.link {
+    font-weight:700;
+    transition: .5s all;
+}
+
+.link:hover {
+    color: #FF6464;
+    transition: .5s all;
 }
 
 #menu {
@@ -124,6 +131,18 @@ h4 {
 .picturebox img:hover {
     border: solid 2px rgba(255,100,100,1);
     transition: .5s all;
+}
+
+.pdfbox {
+    width: 1000px;
+    height: auto;
+    margin: 50px;
+    background-color: rgb(27, 27, 27);
+}
+
+.pdfbox iframe {
+    width: 100%;
+    height: 1000px;
 }
 
 .textbox {
